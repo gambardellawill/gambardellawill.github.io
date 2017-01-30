@@ -7,6 +7,8 @@
   <meta name="viewport" content="width = device-width,
    initial-scale = 1" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -14,27 +16,103 @@
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <ul class="nav navbar-nav">
-            <li class="active">
-              <a href="#">Home</a>
-            </li>
-            <li class="active">
-              <a href="#">About</a>
-            </li>
-
-          </ul>
+          <a class="navbar-brand" href="#">
+            William Gambardella
+          </a>
         </div>
+
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Sobre mim</a>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cursos
+            <span class="glyphicon glyphicon-menu-down"></span></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#">Git CI/CD</a>
+              </li>
+              <li>
+                <a href="#">Python</a>
+              </li>
+              <li>
+                <a href="#">Linux</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#">
+              <span class="glyphicon glyphicon-user"></span> Cadastrar</a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="glyphicon glyphicon-log-in"></span> Login</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
-    <div class="jumbotron">
+    <div id="theCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#theCarousel" data-slide-to="1"></li>
+        <li data-target="#theCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="slide1">
+            <img class="d-block img-fluid" src="http://uigradients.com/assets/images/uigradients.jpg" />
+          </div>
+          <div class="carousel-caption">
+            <h1>Git e Integração Contínua</h1>
+            <p>Em breve</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="slide2">
+            <img class="d-block img-fluid" src="http://uigradients.com/assets/images/uigradients.jpg" />
+          </div>
+          <div class="carousel-caption">
+            <h1>Investimentos em renda fixa</h1>
+            <p>Em breve</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="slide3">
+            <img class="d-block img-fluid" src="http://uigradients.com/assets/images/uigradients.jpg" />
+          </div>
+          <div class="carousel-caption">
+            <h1>Mentorias</h1>
+            <p>Em breve</p>
+          </div>
+        </div>
+      </div>
+
+      <a href="#theCarousel" class="left carousel-control" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a href="#theCarousel" class="right carousel-control" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+
+    <!--<div class="jumbotron">
       <p>
         Inscreva-se nos nossos cursos do mês de fevereiro.
       </p>
       <a href="#" class="btn btn-default btn-lg" role="button">
         Inscrever já
       </a>
-    </div>
+    </div> -->
 
     <div id="article-container"></div>
   </div>

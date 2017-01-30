@@ -15,10 +15,7 @@ function build_article() {
   return articleBody;
 }
 
-var articles = "";
-
-for (i = 0; i < 6; i++) {
-  console.log(i);
-  articles += build_article();
-}
-document.getElementById("article-container").innerHTML = articles;
+$(document).ready(function(){
+  var articles = "";
+  var jumbotron = $(".jumbotron");
+});
