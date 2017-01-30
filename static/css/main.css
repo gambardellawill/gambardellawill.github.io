@@ -1,0 +1,30 @@
+body {
+  background-color: #eee;
+  color: #444;
+  font-family: Ubuntu;
+}
+
+header, footer {
+  padding: 10px;
+}
+
+article {
+  border:solid 1px #777;
+  border-radius: 6px;
+  box-shadow: 5px 5px;
+  margin-bottom: 20px;
+}
+
+.art_header {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.art_footer {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+main {
+  padding-left: 10px;
+}
