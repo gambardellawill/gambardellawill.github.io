@@ -4,13 +4,13 @@ function build_article() {
   var date = Date();
   var articleBody = "";
 
-  articleBody = "<article><header class=\"art_header\">"
+  articleBody = "<div class=\"panel panel-default\"><div class=\"panel-heading\">"
   articleBody += title;
-  articleBody += "</header><main>";
+  articleBody += "</div><div class=\"panel-body\">";
   articleBody += mainSection;
-  articleBody += "<footer id=\"post\" class=\"art_footer\">";
+  articleBody += "</div><div class=\"panel-footer\">";
   articleBody += date;
-  articleBody += "</footer></article>"
+  articleBody += "</div></div>"
 
   return articleBody;
 }
@@ -21,4 +21,4 @@ for (i = 0; i < 6; i++) {
   console.log(i);
   articles += build_article();
 }
-document.getElementById("primary").innerHTML = articles;
+document.getElementById("article-container").innerHTML = articles;
