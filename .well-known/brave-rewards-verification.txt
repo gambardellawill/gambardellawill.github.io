@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: gambardella.eng.br
+Token: 444e8982d7a684ee19a14bd2c029be6e1bf4057b2f94e6de0db80468eba017a5
