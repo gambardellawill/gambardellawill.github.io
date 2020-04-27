@@ -2,5 +2,5 @@ User-Agent: *
 Allow: /index.html
 Allow: /blog/*.html$
 Disallow: /*.md$
-Disallow: /static/
 Disallow: /blog/img/
+Sitemap: https://www.gambardella.eng.br/sitemap.xml
