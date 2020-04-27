@@ -1,5 +1,6 @@
 User-Agent: *
-Allow: /*.html
-
-User-Agent: *
+Allow: /index.html
+Allow: /blog/*.html$
+Disallow: /*.md$
 Disallow: /static/
+Disallow: /blog/img/
