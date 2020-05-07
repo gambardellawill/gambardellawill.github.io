@@ -5,8 +5,43 @@
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>https://www.gambardella.eng.br/blog/o-que-e-o-brave-e-porque-usa-lo.html</loc>
+        <loc>https://www.gambardella.eng.br/blog</loc>
+        <lastmod>2020-05-07</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.gambardella.eng.br/blog/2020/o-que-e-o-brave-e-porque-usa-lo.html</loc>
         <lastmod>2020-04-25</lastmod>
         <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.gambardella.eng.br/blog/2017/voce-o-ponto-fraco-da-seguranca-dos-seus-dados.html</loc>
+        <lastmod>2017-05-16</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.gambardella.eng.br/blog/2017/porque-a-faculdade-nao-forma-empreendedores-3.html</loc>
+        <lastmod>2017-05-10</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.gambardella.eng.br/blog/2017/porque-a-faculdade-nao-forma-empreendedores-2.html</loc>
+        <lastmod>2017-05-05</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.gambardella.eng.br/blog/2017/porque-a-faculdade-nao-forma-empreendedores-1.html</loc>
+        <lastmod>2017-05-04</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.gambardella.eng.br/blog/2017/o-porque-dos-10.html</loc>
+        <lastmod>2017-05-02</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.gambardella.eng.br/blog/2017/a-garagem-proverbial.html</loc>
+        <lastmod>2017-04-24</lastmod>
+        <changefreq>monthly</changefreq>
     </url>
 </urlset>
