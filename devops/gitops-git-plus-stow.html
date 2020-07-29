@@ -11,6 +11,23 @@
 <body>
     <article>
         <h1>GitOps: Managing your dotfiles and source lists with Git and stow</h1>
+        <p></p>
+        <h2>Objectives</h2>
+        <p>After reading this quick tutorial, you will be able to:</p>
+        <ul>
+            <li>Store, back up and recall configurations easily and reliably using Git</li>
+            <li>Import said configurations into other computers and have them behave similarly</li>
+        </ul>
+        <h2>A background story of stow</h2>
+        <p>According to the GNU project, Stow is a symlink farm manager. In other words, it tries to
+            replicate the file structure stored in a particular folder by making symbolic links
+            to all files and folders inside that folder but somewhere else in our system.
+        </p>
+        <h2></h2>
+        <p>The directory structure in our repository must replicate that of our user home directory.
+            If we wish to keep our vimrc file as well as other vim configuration files versioned
+            in the same relative path as usual, we will create a .vim folder in our dotfiles folder
+        </p>
         <code>sudo stow -t [target] [origin]</code>
     </article>
 </body>
