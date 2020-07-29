@@ -10,6 +10,16 @@
         <changefreq>weekly</changefreq>
     </url>
     <url>
+        <loc>https://www.gambardella.eng.br/devops</loc>
+        <lastmod>2020-07-28</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.gambardella.eng.br/crypto</loc>
+        <lastmod>2020-07-28</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
         <loc>https://www.gambardella.eng.br/blog/2020/o-que-e-o-brave-e-porque-usa-lo.html</loc>
         <lastmod>2020-04-25</lastmod>
         <changefreq>weekly</changefreq>
@@ -42,6 +52,11 @@
     <url>
         <loc>https://www.gambardella.eng.br/blog/2017/a-garagem-proverbial.html</loc>
         <lastmod>2017-04-24</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.gambardella.eng.br/devops/gitops-git-plus-stow</loc>
+        <lastmod>2020-07-28</lastmod>
         <changefreq>monthly</changefreq>
     </url>
 </urlset>
