@@ -24,10 +24,22 @@
             to all files and folders inside that folder but somewhere else in our system.
         </p>
         <h2></h2>
-        <p>The directory structure in our repository must replicate that of our user home directory.
+        <p>The directory structure in our repository must resemble that of our user home directory.
             If we wish to keep our vimrc file as well as other vim configuration files versioned
-            in the same relative path as usual, we will create a .vim folder in our dotfiles folder
+            in the same relative path as usual, we should then create a vim folder inside our dotfiles 
+            folder and run the stow command.
         </p>
+        <p>As an example, I've included a picture of my own home folder tree and how the symbolic links
+            link back to the files I store in the dotfiles folder.</p>
+
+        <h2>The beauty and joy of Git in configuration management</h2>
+        <p>We can now harness the full potential of Git and the Git filesystem by creating a repository
+            inside our dotfiles folder. Not only will we be able to back up our configuration files
+            to a remote repository anywhere, but we also gain the ability to revert undesired changes
+            made to those files by third-party applications and other rogue scripts running on our 
+            machines. No more sweating over changes, if your repository is kept up-to-date, that is. 
+        </p>
+        <p>There you have it: a little taste of that DevOps goodness in your everyday computing lives.</p>
         <code>sudo stow -t [target] [origin]</code>
     </article>
 </body>
