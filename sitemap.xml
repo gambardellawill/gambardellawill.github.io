@@ -60,8 +60,13 @@
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>https://www.gambardella.eng.br/devops/gitops-git-plus-stow</loc>
+        <loc>https://www.gambardella.eng.br/devops/gitops-git-plus-stow.html</loc>
         <lastmod>2020-07-28</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.gambardella.eng.br/devops/stop-making-apps-start-making-pwas.html</loc>
+        <lastmod>2021-02-28</lastmod>
         <changefreq>monthly</changefreq>
     </url>
 </urlset>
