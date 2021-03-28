@@ -20,6 +20,11 @@
         <changefreq>monthly</changefreq>
     </url>
     <url>
+        <loc>https://www.gambardella.eng.br/misc</loc>
+        <lastmod>2021-03-28</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
         <loc>https://www.gambardella.eng.br/blog/2020/o-que-e-o-brave-e-porque-usa-lo.html</loc>
         <lastmod>2020-04-25</lastmod>
         <changefreq>weekly</changefreq>
