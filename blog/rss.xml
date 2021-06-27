@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>William Gambardella</title>
+        <link>https://www.gambardella.eng.br/blog/</link>
+        <description>My personal blog.</description>
+        <language>en-us</language>
+        <webMaster></webMaster>
+        <item>
+            <title>GitOps: Managing your dotfiles and source lists with Git and stow</title>
+            <link>https://www.gambardella.eng.br/devops/gitops-git-plus-stow.html</link>
+            <description>A tutorial on how to manage your system configurations easily GitOps style.</description>
+            <author>William Gambardella</author>
+        </item>
+    </channel>
+</rss>
