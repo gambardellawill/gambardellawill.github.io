@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Will's Weekly Reads</title>
+        <link>https://www.gambardella.eng.br/social-media/reading.xml</link>
+        <description>A selection of my top weekly reads</description>
+        <author>William Gambacrdella</author>
+        <webMaster>william@gambardella.eng.br</webMaster>
+        <pubDate>Sun, 27 Jun 2021</pubDate>
+        <item>
+            <title>How Stripe Built a Writing Culture</title>
+            <link>https://slab.com/blog/stripe-writing-culture/</link>
+            <description>Stripe’s Documentation Manager shares how the company built a culture where writing is second nature.</description>
+            <author>RC Victorino</author>
+            <pubDate>Sun, 27 Jun 2021</pubDate>
+        </item>
+        <item>
+            <title>How HashiCorp Makes Writing a Priority</title>
+            <link>https://slab.com/blog/how-hashicorp-makes-writing-a-priority/</link>
+            <description>Kevin Fishner, Chief of Staff at HashiCorp, discusses how companies can build a culture of writing and documentation.</description>
+            <author>Rebecca Acree</author>
+            <pubDate>Sun, 27 Jun 2021</pubDate>
+        </item>
+        <item>
+            <title>Uber’s 3-Step Approach to Getting More Engineers to Document</title>
+            <link>https://slab.com/blog/ubers-apporach-to-getting-more-engineers-to-document/</link>
+            <description>Stephanie Blotner, Technical Writer, shares how Uber motivates engineers to invest in documentation.</description>
+            <author>Rebecca Acree</author>
+            <pubDate>Sun, 27 Jun 2021</pubDate>
+        </item>
+        <item>
+            <title>Monitoring your EventStoreDB with Prometheus and Grafana</title>
+            <link>https://www.eventstore.com/blog/monitoring-your-eventstoredb-with-prometheus-and-grafana</link>
+            <description>I would like to introduce you to some concepts related to system monitoring and demonstrate how you can gather and 
+            analyze metrics from your installation of EventStoreDB using Prometheus and Grafana.</description>
+            <author>Marcin Budny</author>
+            <pubDate>Sun, 27 Jun 2021</pubDate>
+        </item>
+        <item>
+            <title>LINUX FU: DATABASES ARE NEXT-LEVEL FILE SYSTEMS</title>
+            <link>https://hackaday.com/2021/06/08/linux-fu-databases-are-next-level-file-systems/</link>
+            <description>Click to open webpage</description>
+            <author>Al Williams</author>
+            <pubDate>Sun, 27 Jun 2021</pubDate>
+            <comments>https://hackaday.com/2021/06/08/linux-fu-databases-are-next-level-file-systems/#comments</comments>
+            <source>https://hackaday.com/blog/feed/</source>
+        </item>
+        <item>
+            <title>STUPID GIT TRICKS</title>
+            <link> https://hackaday.com/2017/05/23/stupid-git-tricks/</link>
+            <description>Click to open webpage</description>
+            <author>Al Williams</author>
+            <pubDate>Sun, 27 Jun 2021</pubDate>
+            <comments>https://hackaday.com/2017/05/23/stupid-git-tricks/#comments</comments>
+            <source>https://hackaday.com/blog/feed/</source>
+        </item>
+    </channel>
+</rss>
