@@ -7,10 +7,20 @@
         <language>en-us</language>
         <webMaster></webMaster>
         <item>
+            <title>Stop making apps and start making PWA's</title>
+            <link>https://www.gambardella.eng.br/devops/stop-making-apps-start-making-pwas.html</link>
+            <description>A technical discussion in favour of switching over to the Progressive Web Apps train.</description>
+            <author>William Gambardella</author>
+            <pubDate>Sun, 28 Feb 2021</pubDate>
+            <guid>aa07d1c2dfc171f4c2eb8d4a1967f67358ef2980c1e8c4123e30161b72200013</guid>
+        </item>
+        <item>
             <title>GitOps: Managing your dotfiles and source lists with Git and stow</title>
             <link>https://www.gambardella.eng.br/devops/gitops-git-plus-stow.html</link>
             <description>A tutorial on how to manage your system configurations easily GitOps style.</description>
             <author>William Gambardella</author>
+            <pubDate>Tue, 28 Jul 2020</pubDate>
+            <guid>f307fc288b9becbac0685ddd95885b4b9e766303c2f5f68b31db9a312b4b8c82</guid>
         </item>
     </channel>
 </rss>
